@@ -1765,3 +1765,6 @@ jakarta.persistence.TransactionRequiredException: No EntityManager with actual t
 2025-11-25T15:15:49.463+09:00  INFO 3702 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2025-11-25T15:46:44.985+09:00  WARN 3702 --- [gallery] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
 2025-11-25T15:52:15.512+09:00  WARN 3702 --- [gallery] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s), soft-evicting connections from pool.
+2025-11-25T16:23:43.435+09:00  INFO 3702 --- [gallery] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25T16:23:43.437+09:00  INFO 3702 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-25T16:23:43.438+09:00  INFO 3702 --- [gallery] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
